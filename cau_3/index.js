@@ -50,7 +50,7 @@ function hienThiDanhSach() {
                     <td>${so.ngayMoSo}</td>
                     <td>${so.soTienGui}</td>
 <!--                     <td><button onclick="editSoTietKiem(${id})">Xóa</button></td>-->
-                    <td><button onclick="xoaSoTietKiem(${id})">Xóa</button></td>
+                    <td><button class="button-delete" onclick="xoaSoTietKiem(${id})">Xóa</button></td>
                 </tr>`;
         danhSach.innerHTML += row;
     });

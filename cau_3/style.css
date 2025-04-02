@@ -6,17 +6,40 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+
+}
+.container {
+    background-color: rgba(44, 42, 42, 0.8);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 table {
-    width: 100%;
+    width: 48%;
     border-collapse: collapse;
+    border-radius: 10px ;
+    background-color: #c6c4c6;
 }
-table, th, td {
-    border: 1px solid black;
-}
+/*table, th, td {*/
+/*    border: 1px solid black;*/
+/*}*/
 th, td {
     padding: 10px;
     text-align: left;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+}
+th{
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    background-color: #007bff;
+    color: white;
+
 }
 .form-group {
     margin-bottom: 10px;
@@ -32,5 +55,44 @@ button {
 .main-form{
     width: 500px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
+    background: #c6c4c6;
+    border-radius: 20px;
+}
+
+#button-add {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+}
+.btn-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-delete {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+input{
+    width: 90%;
+    margin: 5px 0 5px 20px ;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+label{
+    margin: 10px 0 5px 20px ;
 }
